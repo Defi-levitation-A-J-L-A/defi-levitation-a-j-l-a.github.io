@@ -187,13 +187,6 @@
       sidebar.classList.toggle("open");
     }
 
-    function closeSidebar() {
-      const sidebar = document.getElementById("sidebar");
-      if (window.innerWidth <= 400) {
-        sidebar.classList.remove("open");
-      }
-    }
-
     // Pour fermer la sidebar si la fenêtre est redimensionnée > 400px
     window.addEventListener("resize", () => {
       const sidebar = document.getElementById("sidebar");
